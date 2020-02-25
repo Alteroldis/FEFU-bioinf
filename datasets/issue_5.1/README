@@ -1,4 +1,4 @@
-The portion of the filename to the dot indicates the length of the sequences in it. Each file contains sequences of 100 nucleotides in length, in a number equivalent to the length indicated in the file name.
+The part of the file name to the dot indicates the length of the sequence that can be assembled from the reads in the file. Each file contains sequences of 100 nucleotides in length, in a number equivalent to the length indicated in the file name.
 Each entry in a FASTA files consists of 2 lines:
     A sequence identifier starting with a ">".
     The sequence (the base calls; A, C, T and G).
