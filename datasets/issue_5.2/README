@@ -1,6 +1,0 @@
-The part of the file name to the dot indicates the length of the sequence that can be assembled from the reads in the file. Each file contains sequences of 100 nucleotides in length, in a number equivalent to the length indicated in the file name.
-Each entry in a FASTQ files consists of 4 lines:
-    A sequence identifier with information about the sequencing run and the cluster.
-    The sequence (the base calls; A, C, T, G and N).
-    A separator, which is simply a plus (+) sign.
-    The base call quality scores. These are Phred +33 encoded, using ASCII characters to represent the numerical quality scores (http://drive5.com/usearch/manual/quality_score.html).
